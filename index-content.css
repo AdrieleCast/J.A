@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: whitesmoke;
+}
+
+.content-center{
+    display: flex;
+
+    margin-top: 3.5vh;
+    margin-inline: 5vh;
+
+    width: auto;
+    height: 50vh;
+}
+
+.content-text{
+    font-size: 4vh;
+    text-align: justify;
+    margin-left: 150vh;
+}
+
+.content-descripition{
+    font-size: 5vh;
+    text-align: center;
+}
