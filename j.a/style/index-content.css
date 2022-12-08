@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-color: black;
+}
+
+.content-center{
+    display: flex;
+
+    margin-top: 3.5vh;
+    margin-inline: 5vh;
+
+    width: auto;
+    height: 50vh;
+}
+
+.content-text{
+    font-size: 4vh;
+    text-align: justify;
+    margin-left: 150vh;
+}
+
+.content-descripition{
+    font-size: 5vh;
+    text-align: center;
+}
+
+.menu-bar{
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.lojafi{
+    width: 450px;
+    height: 350px;
+    margin: 13%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 6px rgb(170, 3, 3), 2px 2px 20px rgb(121, 119, 119), 0 0 5px rgb(170, 3, 3);
+}
+
+.lojafii{
+    color: white;
+    text-align:center;
+    background-color: #333;
+    width: 720px;
+    height: 150px;
+    margin-left: -245px;
+    margin-top: -32px;
+    font-size: 25px;
+    margin-right: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 730px;
+    padding: 100px;
+    box-shadow: 1px 1px 6px rgb(170, 3, 3), 2px 2px 20px rgb(121, 119, 119), 0 0 5px rgb(170, 3, 3);
+
+}
+
+@media screen and (max-width:1000) {
+    .mobile{
+        width: 200px;
+    }
+    .footer-text{
+        height: n
+    }
+}

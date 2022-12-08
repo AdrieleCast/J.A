@@ -1,0 +1,38 @@
+.footer{
+    margin-top: 10vh;
+    width: auto;
+    height: 19vh;
+    background-color: #333;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-text{
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: 0.5vh;
+    left: 1vh;
+    margin-left: 2vh;
+    
+    font-size: 15px;
+    font-family: "Nunito";
+    color: white;
+}
+
+.footer-text a{
+    font-size: 15px;
+}
+
+.footer{
+    color: white;
+    background-color: rgb(71, 71, 71);
+    text-align: center;
+}
+
+@media screen and (max-width:1000px){
+    .footer-text{
+
+    }
+}
+    
+}

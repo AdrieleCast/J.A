@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Carrinho de compras</title>
+	<link rel="stylesheet" href="style/carrin.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a id="navTitle" class="navbar-brand" href="index.html"></a>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container-fluid" id="carrin">
+		<div class="form-inline">
+			<div class="form-group">
+				<input type="text" class="form-control" id="desc" placeholder="Description">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="amount" placeholder="Amount">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" id="value" placeholder="Value">
+			</div>
+			<span id="btnUpdate" style="display: none;">
+				<span id="inputIDUpdate"></span>
+				<button onclick="updateData();" class="btn btn-default">Save</button>
+				<button onclick="resetForm();" class="btn btn-default">Cancel</button>
+			</span>
+			<span id="btnAdd">
+				<button onclick="addData();" class="btn btn-default">Add</button>
+				<button onclick="resetForm();" class="btn btn-default">Reset</button>
+				<button onclick="deleteList();" class="btn btn-default">Delete list</button>
+			</span>
+		</div>
+
+		<div id="errors" style="display: none;"></div>
+
+		<table id="listTable" class="table">
+		
+		</table>
+	</div>
+
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+		</div>
+	</nav>
+
+	<script type="text/javascript" src="js/config.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<div class="ls-cart">
+		<a href="#"></a><input type="checkbox" class="ls-custom-select"> <strong>Todos</strong>
+		<header class="ls-cart-header">
+		  <span class="ls-ico-cart ls-float-left"></span>
+		  
+
+		  <h1>MEU CARRINHO</h1>
+		
+		</header>
+		<div class="ls-cart-content" id="Carrin">
+		  <ul class="ls-no-list-style">
+			<li>
+			  <h2 class="ls-title-product">
+				<input type="checkbox" class="ls-checkbox-cart">
+				<img src="imagens/J5.Plus.jpg" alt="">
+				<strong>01</strong> Email Marketing Locaweb
+			  </h2>
+			  <a href="">Excluir</a>
+			</li>
+			<li>
+			  <h2 class="ls-title-product">
+				<input type="checkbox" class="ls-checkbox-cart">
+				<img src="imagens/Xiome.jpg" alt="">
+				<strong>02</strong> Xiome
+			  </h2>
+			  <a href="">Excluir</a>
+			</li>
+			<li>
+			  <h2 class="ls-title-product">
+				<input type="checkbox" class="ls-checkbox-cart">
+				<img src="imagens/Phone 7 Plus.jpg" alt="">
+				<strong>06</strong> Honda FIT 2010 4p Flex 1.4 16v
+			  </h2>
+			  <a href="">Excluir</a>
+			</li>
+			<li>
+			  <h2 class="ls-title-product">
+				<input type="checkbox" class="ls-checkbox-cart">
+				<strong>01</strong> Lorem Ipsum is simply dummy text
+			  </h2>
+			  <a href="">Excluir</a>excluir img
+			</li>
+		  </ul>
+		  <footer class="cart">
+			<h4 class="total">Total: <span id="totalValue">$ 0,00</span></h4>
+			<a href="" class="ls-btn-primary">Finalizar Compra</a>
+		  </footer>
+		</div>
+	</div>
+
+	//////////////////////////////////////////////
+	<div class="product-list">
+		<div class="product">
+			<div class="product__image">
+
+			</div>
+			<div class="product-title">Xiome</div>
+			<div class="product-price">
+				R$1.000
+			</div>
+			<div class="product__rating">
+				<div class="rating">
+					<span class="rating_star">
+						star
+					</span>
+					<span class="rating_star">
+						star
+					</span>
+
+					<span class="rating_star">
+						star
+					</span>
+					
+					<span class="rating_star">
+						star
+					</span>
+				</div>
+				</div>
+				<div class="rating__total">
+					(8)
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

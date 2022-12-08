@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Silkscreen&display=swap');
+
+body{
+    background: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.menu-bar{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 7vh;
+    
+    background-color: rgb(25, 24, 26);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul{
+    margin-left: -20px;
+}
+
+li{
+    display: inline-block;
+    margin-top: 0vh;
+    margin-right: 4vh;
+}
+
+a{
+    color: white;
+    font-family: "Nunito";
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+
+.menu-bar  i {
+    display: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    justify-self: flex-end;
+}
+
+.mobile{
+    display: none;
+}
+
+.icons{
+    display: inline-block;
+    position: relative;
+    left: 50vh;
+    bottom: 4.2vh;
+    margin-right: 2vh;
+}
+
+.car-shop{
+    width: 5vh;
+    height: 5vh;
+}
+
+.whatsapp{
+    width: 5vh;
+    height: 5vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-bar  i {
+        display: flex;
+        margin-left: 30px;
+        margin-top: 10px;
+        float: none;
+        color: white;
+    }
+    .menu-bar li{
+        color: white;
+    }
+    .mobile img{
+        width: 10%;
+    }
+    li{
+        display: none;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .content img{
+        display: none;
+    }
+
+    .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+
+    .footer{
+        height: none;
+    }
+
+    .list1{
+        
+    }
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Silkscreen&display=swap');
+
+body{
+    background: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.menu-bar{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 7vh;
+    
+    background-color: rgb(25, 24, 26);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+ul{
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    margin-top: 2vh;
+    margin-right: 4vh;
+}
+
+a{
+    color: white;
+    font-family: "Nunito";
+    font-size: 2.5vh;
+    text-decoration: none;
+}
+
+i {
+    color: white;
+    font-size: 40px;
+}
+
+.icons{
+    display: inline-block;
+    position: relative;
+    left: 50vh;
+    bottom: 4.2vh;
+    margin-right: 2vh;
+}
+
+.car-shop{
+    width: 5vh;
+    height: 5vh;
+}
+
+.whatsapp{
+    width: 5vh;
+    height: 5vh;
+}
+
+
+

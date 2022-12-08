@@ -1,0 +1,19 @@
+body{
+    background-color: white;
+}
+
+.ls-title-product img{
+    width: 250px;
+    height: 350px;
+}
+
+.cart{
+    display: flex;
+    margin-left: 100px;
+    color: white;
+}
+
+.ls-title-product strong{
+    color: white;
+}
+
